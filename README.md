@@ -1,2 +1,3 @@
 # preparation-journey
-My journey in learning DSA, ML
+My journey in learning DSA.
+
