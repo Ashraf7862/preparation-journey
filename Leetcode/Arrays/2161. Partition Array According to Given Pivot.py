@@ -17,7 +17,7 @@ The elements 9, 5, and 3 are less than the pivot so they are on the left side of
 The elements 12 and 14 are greater than the pivot so they are on the right side of the array.
 The relative ordering of the elements less than and greater than pivot is also maintained. [9, 5, 3] and [12, 14] are the respective orderings.
 '''
-
+from collections import deque
 class Solution:
     def pivotArray(self, nums: list[int], pivot: int) -> list[int]:
         res=[]
