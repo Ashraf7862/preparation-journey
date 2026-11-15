@@ -25,7 +25,7 @@ Out of these, the subarray [3, -2] has a sum of 1, which is the smallest positiv
 '''
 
 class Solution:
-    def minimumSumSubarray(self, nums: List[int], l: int, r: int) -> int:
+    def minimumSumSubarray(self,nums,l,r) -> int:
         m=float('inf')
         n=len(nums)
         for i in range(n):
