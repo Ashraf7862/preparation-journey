@@ -20,6 +20,7 @@ Explanation:
 The longest product equivalent subarray is [1, 2, 1, 1, 1], where prod([1, 2, 1, 1, 1]) = 2, gcd([1, 2, 1, 1, 1]) = 1, and lcm([1, 2, 1, 1, 1]) = 2.
 
 '''
+import math
 
 class Solution:
     def maxLength(self, nums: List[int]) -> int:
