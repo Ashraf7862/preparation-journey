@@ -23,7 +23,7 @@ The longest product equivalent subarray is [1, 2, 1, 1, 1], where prod([1, 2, 1,
 import math
 
 class Solution:
-    def maxLength(self, nums: List[int]) -> int:
+    def maxLength(self, nums) -> int:
         n=len(nums)
         m=0
         for i in range(n):
